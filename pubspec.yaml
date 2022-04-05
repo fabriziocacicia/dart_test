@@ -1,0 +1,22 @@
+name: flutter_clean_domain
+description: A plugin that provides core elements for implementing the domain layer of a Clean Architecture app
+version: 1.2.0
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  equatable: ^2.0.3
+
+  # Functional programming
+  dartz: ^0.10.1
+
+dev_dependencies:
+  # Linting and Code analysis
+  dart_lint_rules:
+    git:
+      url: git@github.com:fabriziocacicia/dart_lint_rules.git
+      ref: v0.0.2
+
